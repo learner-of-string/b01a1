@@ -1,0 +1,26 @@
+header {
+  background: url("/assets/Hero-bg.png");
+  height: 652px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: #0d1321;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  margin: 32px 0 20px 0;
+  max-width: 998px;
+}
+
+header div > p {
+  text-align: center;
+  width: 852px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+}
