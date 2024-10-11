@@ -99,18 +99,33 @@ iframe {
 
 .target-container {
   display: flex;
+  margin-top: 48px;
+  justify-content: space-evenly;
+  gap: 24px;
 }
 
-.card-html {
+.card-html,
+.card-css,
+.card-js {
   padding: 40px;
   max-width: 364px;
   background: #ff4c1e0d;
   border-radius: 16px;
 }
 
-.card-html a {
+.card-html a,
+.card-css a,
+.card-js a {
   color: #0d1321;
   font-size: 16px;
   font-weight: 700;
   text-decoration-line: underline;
+}
+
+.card-css {
+  background: #004ce80d;
+}
+
+.card-js {
+  background: #ffdf000d;
 }
