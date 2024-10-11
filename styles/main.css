@@ -1,6 +1,7 @@
 main h2 {
   font-weight: 800;
   text-align: center;
+  font-size: 32px;
 }
 
 main {
@@ -65,4 +66,51 @@ main {
 
 #card-2 {
   flex-direction: row-reverse;
+}
+
+.my-inspiration h2 {
+  margin-bottom: 32px;
+
+  color: #0d1321;
+}
+
+.my-inspiration p {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+iframe {
+  padding: 32px;
+  border: 1px solid #0d132133;
+  border-radius: 16px;
+  margin-top: 48px;
+  margin-bottom: 150px;
+}
+
+.section-description {
+  max-width: 852px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.target-container {
+  display: flex;
+}
+
+.card-html {
+  padding: 40px;
+  max-width: 364px;
+  background: #ff4c1e0d;
+  border-radius: 16px;
+}
+
+.card-html a {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
 }
