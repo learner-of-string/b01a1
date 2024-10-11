@@ -129,3 +129,57 @@ iframe {
 .card-js {
   background: #ffdf000d;
 }
+
+#i-need-help {
+  background: url("./../assets/handshake.jpg");
+  background-size: cover;
+}
+
+#overlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 64px;
+}
+
+#overlay h3 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#overlay p {
+  color: #fff;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+
+input {
+  width: 548px;
+  height: 57px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+button[type="submit"] {
+  border-radius: 8px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 20px;
+}
+
+#i-need-help {
+  margin-top: 50px;
+}
