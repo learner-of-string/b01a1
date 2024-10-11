@@ -1,5 +1,5 @@
 header {
-  background: url("/assets/Hero-bg.png");
+  background: url("./assets/Hero-bg.png");
   height: 652px;
   max-width: 1440px;
   display: flex;
